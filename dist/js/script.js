@@ -2,7 +2,7 @@ const timers = document.querySelectorAll(".countdown-item > h3");
 const countdownBox = document.getElementById("countdown-box");
 
 // Дата начала продажи
-let countdownDate = new Date(2023, 2, 29, 0, 0, 0).getTime();
+let countdownDate = new Date(2025, 2, 29, 0, 0, 0).getTime();
 
 function getCountDownTime() {
     // Текущее время
